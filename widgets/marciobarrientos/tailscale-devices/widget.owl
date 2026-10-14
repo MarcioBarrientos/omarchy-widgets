@@ -59,7 +59,7 @@ widget "tailscale-devices" {
         } else if os == "windows" {
           Image { src: windowsLogo; width: 20; height: 20; fit: contain }
         } else {
-          Text { text: "◌"; style: label; color: foreground }
+          Text { text: "◌"; width: 20; align: center; style: label; color: foreground }
         }
         Column {
           weight: 1
